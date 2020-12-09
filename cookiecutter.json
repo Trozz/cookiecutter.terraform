@@ -1,0 +1,14 @@
+{
+  "terraform_name": "example",
+  "backend_bucket": "state",
+  "backend_key": "terraform.tfstate",
+  "backend_region": "eu-west-1",
+  "backend_role": "arn:XXXX",
+  "backend_kms_key": "arn:YYYY",
+  "backend_dynamodb_table": "terraform_table",
+  "backend_encrypt": true,
+  "environment": "dev",
+  "terraform_version": "0.13.5",
+  "vars_assume_role": "arn:AAAA",
+  "vars_region": "eu-west-1"
+}
